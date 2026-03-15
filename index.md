@@ -2,35 +2,33 @@
 
 ## Elevator Pitch
 
-Replace this with a one sentence pitch for your game. Pretend that your were pitching your game to a executive going to the elevator, and you only had 60 seconds. You should not write more than a few sentences at most. Check [this resource](http://www.gameacademy.com/perfecting-indie-games-elevator-pitch/) for more information.
+A fast-paced coding challenge game where players step through programs and trace function calls like a debugger, building computational thinking skills while mastering how real programs execute.
 
 ## Influences (Brief)
 
-- *Influence #1*:
-  - Medium: *(Television, Games, Literature, Movies, etc.)*
-  - Explanation: *In one paragraph or less, explain why this is an influence.*
-- *Influence #2*:
-  - Medium: *(Television, Games, Literature, Movies, etc.)*
-  - Explanation: *In one paragraph or less, explain why this is an influence.*
-- *Influence #3*:
-  - Medium: *(Television, Games, Literature, Movies, etc.)*
-  - Explanation: *In one paragraph or less, explain why this is an influence.*
+- Human Resource Machine:
+  - Medium: Game
+  - Explanation: Human Resource Machine teaches programming logic through small puzzle challenges where players must carefully think through how instructions execute step by step. This game influences the design by emphasizing reasoning about program flow and execution order, similar to tracing function calls in a program.
 
+- Programming Debuggers:
+  - Medium: Software Tool
+  - Explanation: Debugging tools in programming environments allow programmers to step through code and observe the call stack as functions are entered and exited. This game is influenced by that process, encouraging students to simulate the same step-by-step reasoning when tracing function calls and returns.
+    
 ## Core Gameplay Mechanics (Brief)
 
-*Give a very high-level description of any core gameplay mechanics*
-
-- Take note of what the exam question is asking you to trace.
-- Read through the entire program to get an overview of what it looks like.
-- Locate the next function call in the program.
-- Continue execution into that function's body.
-- Return to where the call was made and continue reading
+- Select which function is called next in the execution order.
+- Indicate when a function returns.
+- Identify parameter values passed into a function.
+- Identify return values produced by a function.
+- Place functions into a visual call stack to represent nested function layers.
 
 # Learning Aspects
 
 ## Learning Domains
 
-*Briefly list any and all of the disciplines and learning domains for this subject.*
+- Computer Science: specifically programming fundamentals and program execution.
+
+- Computational Thinking: decomposition, sequencing, and logical reasoning when following code execution.
 
 ## Target Audiences
 
@@ -38,11 +36,9 @@ Students or the people who want to learn function in program.
 
 ## Target Contexts
 
-*Describe what kinds of formal and informal learning contexts this will be used in (e.g., courses, k-12 computer labs during free time).*
+This learning activity or game can be used in introductory programming courses such as high school AP Computer Science classes, introductory college computer science courses, or coding bootcamps. It is also suitable for guided practice in computer labs, homework exercises, and interactive learning games that reinforce program tracing. Informally, it could be used by self-learners studying programming concepts, coding clubs, or students practicing for exams that assess understanding of function calls and program execution.
 
 ## Learning Objectives
-
-*Remember, Learning Objectives are NOT simply topics. They are statements of observable behavior that a learner can do after the learning experience. You cannot observe someone "understanding" or "knowing" something.*
 
 - By the end of the lesson, students will be able to trace function calls using computational thinking with 80% accuracy.
 - By the end of the lesson, students will be able to create function.
@@ -50,93 +46,116 @@ Students or the people who want to learn function in program.
 
 ## Prerequisite Knowledge
 
-*What do they need to know prior to trying this game?*
-
 - Prior to the game, players need to be able to define the concept of function structure.
 - Prior to the game, players need to be able to explain the variable in function.
 
 ## Assessment Measures
 
-*Clearly identify a set of viable assessment questions AND their grading logic. The questions should be specific examples of the kinds of questions that your game could conceivably improve student performance on. For the grading logic, it could be the correct answer, a rubric for evaluating the answer, or exact logic for deriving answers.*
+A short pre-test and matching post-test should be designed to assess student learning of tracing function calls and returns in a program.
 
+- Given a program with multiple functions, identify the order in which the functions are called during execution.
+- Given a program with nested function calls, identify which function is currently on the top of the call stack at a specific point in execution.
+- Given a function call with parameters, identify the values passed into the function.
 
 
 # What sets this project apart?
 
-*Give some reasons why this game is not like every other game out there. Whether the learning objective is unique, the gameplay mechanics are new, or what. You should persuade the reader that your game is novel and worthy of development. Consider arguments that would be persuasive to a Venture Capitalist, Teacher, or Researcher. These might be focused on learning needs, too.*
+- Focus on a Difficult Programming Concept  
+  Many beginner programming games focus on simple sequencing or syntax, but few directly teach how function calls, returns, and the call stack work together during program execution. This game targets a concept that many students struggle with in introductory programming courses, helping them build a clear mental model of how programs actually run.
 
-- *Reason #1*
-- *Reason #2*
-- *Reason #3*
-- *Reason #4*
-- *etc.*
+- Interactive Program Tracing Instead of Passive Learning  
+  Rather than reading explanations or watching tutorials, players actively step through program execution. By selecting which function is called next, identifying return values, and maintaining a call stack, players learn through hands-on interaction that mimics real debugging and program analysis.
+
+- Visualizing an Invisible Process  
+  The call stack and function execution are normally invisible processes happening inside the computer. This game makes them visual and interactive, allowing players to see functions enter and exit the stack. This visualization helps learners better understand nested functions and program flow.
 
 # Player Interaction Patterns and Modes
 
 ## Player Interaction Pattern
 
-*Describe how people play your game, how many players are involved at once, how they interact with the system works, etc.*
+This is a game for one person, they click/type with the mouse/keyboard or touch on their screen.
 
 ## Player Modes
 
-*Your game has one or more player modes. Describe each discrete mode, considering things like menus too. Generally describe the transitions between modes too.*
-
-- *Player mode #1*: *Description*
-- *Player mode #2*: *Description*
-- *etc.*
+- Single-player: You repeatedly advance through rounds and levels until you reach the end.
 
 # Gameplay Objectives
 
-- *Primary Objective #1*:
-    - Description: *Description*
-    - Alignment: *Describe how this aligns with one or more learning objectives*
-- *Primary Objective #2*:
-    - Description: *Description*
-    - Alignment: *Describe how this aligns with one or more learning objectives*
-- *etc.*
+- Primary Objective #1:
+  - Description: Identify the order in which functions are called when a program begins execution.
+  - Alignment: This aligns with the learning objective of tracing function calls, helping students practice recognizing when functions are invoked from the main program or from other functions.
+
+- Primary Objective #2:
+  - Description: Determine the order in which functions return and what values they return.
+  - Alignment: This aligns with the learning objective of tracing function returns and understanding how return values move back through the call stack.
+
+- Primary Objective #3:
+  - Description: Identify the current layer of nested function calls while tracing program execution.
+  - Alignment: This supports the learning objective of understanding the call stack and nested function behavior during program execution.
 
 # Procedures/Actions
 
-*Describe the control scheme and what actions a user can take in the game.*
+Players interact with the game by analyzing short programs and selecting the correct steps that occur during program execution. The player reads a displayed program and then uses on-screen buttons or draggable elements to indicate when a function is called, when a function returns, and what values are passed or returned.
 
 # Rules
 
-*What resources are available to the player that they make use of?  How does this affect gameplay? How are these resources finite?*
+Players are given a short program and must correctly trace the order of function calls and returns. The player must complete the trace before the program finishes executing.
 
 # Objects/Entities
 
-*What other things are in the world that you need to design? These may or may not directly translate to actual objects and classes.*
+- Program Display:
+  - Shows the code that the player must analyze and trace. The program includes functions, parameters, and return statements that players must follow during execution.
+
+- Function Nodes:
+  - Represent individual functions in the program. These can be highlighted or selected when a function is called or returned during gameplay.
 
 ## Core Gameplay Mechanics (Detailed)
 
-- *Core Gameplay Mechanic #1*: *Describe in 2 paragraphs or less, along with how it generally works*
-- *Core Gameplay Mechanic #2*: *Describe in 2 paragraphs or less, along with how it generally works*
-- *Core Gameplay Mechanic #3*: *Describe in 2 paragraphs or less, along with how it generally works*
+- Core Gameplay Mechanic #1: Function Call Tracing  
+  Players analyze a short program and determine which function is called next in the execution order. The game pauses at specific points in the program and presents multiple possible functions that could be invoked. The player must select the correct function based on the current line of code.
+
+  When the player selects a function call, the game advances execution and visually shows that function being entered. This mechanic reinforces the skill of recognizing where functions are invoked and understanding how program execution moves from one function to another.
+
+- Core Gameplay Mechanic #2: Return Value Identification  
+  When a function finishes executing, the player must identify when the function returns and what value is returned to the previous function. The game prompts the player to choose the correct return value or confirm the function that is exiting.
+
+  This mechanic helps players understand how functions complete their work and pass information back to the calling function. It reinforces the concept of return statements and the flow of data through a program.
+
+- Core Gameplay Mechanic #3: Call Stack Construction  
+  Players build and maintain a visual representation of the call stack as the program runs. Each time a function is called, the player places it onto the stack, representing a new layer of nested function execution. When a function returns, the player removes it from the stack.
+
+  This mechanic helps players understand how nested function calls work and how the call stack changes during execution. By physically placing and removing functions from the stack, players develop a clearer mental model of how programs manage multiple active function calls.
 
     
 ## Feedback
 
-*Explicitly describe what visual/audio/animation indicators there are that give players feedback on their progress towards their gameplay objectives (and ideally the learning objectives).*
+Players receive immediate feedback through visual cues when they make tracing decisions. When a player correctly selects the next function call, the selected function is highlighted and animated as it moves onto the visual call stack. If the player correctly identifies a function return, the function smoothly pops off the stack with a confirmation sound or animation. Incorrect selections are indicated with a brief red highlight or shake animation, prompting the player to reconsider the step. These visual and audio signals help players recognize whether they are correctly identifying function calls, returns, parameters, and stack behavior.
 
-*Describe what longer-term feedback you detect and give that guides the player in their learning and lets them know how they are doing in regards to the learning objectives.*
+The call stack visualization itself also acts as continuous feedback. As players add or remove functions from the stack, they can see how nested function layers change during execution. This helps reinforce the concept of program flow and allows players to monitor their progress toward correctly tracing the program.
+
+Longer-term feedback is provided through a scoring and progress system. After completing a level, players receive a summary showing how many tracing steps were correct, how many hints were used, and which types of tracing actions they struggled with (such as identifying returns or parameters). Over multiple levels, the game tracks accuracy and improvement toward the learning objective of tracing function calls with at least 80% accuracy. This progress tracking helps players understand how their skills are developing and encourages continued practice.
 
 # Story and Gameplay
 
 ## Presentation of Rules
 
-*Briefly describe how the player will learn the gameplay mechanics. Avoid using walls of text, since people will not read them. Think instead of natural ways of teaching mechanics iteratively and slowly.*
+Players learn the mechanics through short interactive tutorials that introduce one concept at a time. The first level guides the player to identify the main entry point of a program and select the first function call. Visual prompts highlight the correct part of the code and briefly explain the action the player should take.
+
+As players progress, new mechanics are gradually introduced, such as identifying return values and managing the call stack. Instead of long explanations, the game uses small hints, visual highlights, and example moves to demonstrate the correct actions. Each new mechanic appears in a simple level first before being combined with other mechanics in later challenges.
 
 ## Presentation of Content
 
-*Briefly describe how the player will be taught the core material they are meant to learn. Avoid using walls of text, since people will not read them. Think instead of natural ways of teaching material iteratively and slowly.*
+The programming concepts are taught through practice with small programs that gradually increase in complexity. Early levels use very short programs with only one or two functions so players can clearly see how execution moves between them.
+
+Later levels introduce nested function calls, parameters, and return values. Visual tools such as the call stack and highlighted code lines help players understand what is happening during execution. By repeatedly tracing programs in an interactive way, players build a stronger mental model of how functions work together during program execution.
 
 ## Story (Brief)
 
-*The Summary or TL;DR version of below*
+The player takes the role of a programmer exploring how programs run inside a computer. By stepping through code and tracing function calls, the player helps guide the program through its execution while solving small coding challenges.
 
 ## Storyboarding
 
-*Go into as much detail as needs be to visually convey the Dynamics of your game. Be detailed. Create storyboards and freeze frame images that concisely capture important key elements of your game. You are strongly recommended to sketch pictures on paper and embed them here. Be sure make it clear how previously-described mechanics come through in the dynamics.*
+[![](1.png)](https://github.com/ccchip1/Educational-Game-Developent-Project-Detective-Code/blob/main/1.png)
 
 # Assets Needed
 
