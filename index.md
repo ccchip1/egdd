@@ -1,4 +1,4 @@
-# REPLACE THIS WITH YOUR GAME NAME
+# Detective Code
 
 ## Elevator Pitch
 
@@ -20,10 +20,11 @@ Replace this with a one sentence pitch for your game. Pretend that your were pit
 
 *Give a very high-level description of any core gameplay mechanics*
 
-- *Gameplay Mechanic #1*
-- *Gameplay Mechanic #2*
-- *Gameplay Mechanic #3*
-- *Gameplay Mechanic #4*
+- Take note of what the exam question is asking you to trace.
+- Read through the entire program to get an overview of what it looks like.
+- Locate the next function call in the program.
+- Continue execution into that function's body.
+- Return to where the call was made and continue reading
 
 # Learning Aspects
 
@@ -33,7 +34,7 @@ Replace this with a one sentence pitch for your game. Pretend that your were pit
 
 ## Target Audiences
 
-*Who are your learners?*
+Students or the people who want to learn function in program.
 
 ## Target Contexts
 
@@ -43,16 +44,16 @@ Replace this with a one sentence pitch for your game. Pretend that your were pit
 
 *Remember, Learning Objectives are NOT simply topics. They are statements of observable behavior that a learner can do after the learning experience. You cannot observe someone "understanding" or "knowing" something.*
 
-- *Short Name*: *Formal Learning Objective #1*
-- *Short Name*: *Formal Learning Objective #2*
-- *Short Name*: *Formal Learning Objective #3*
+- By the end of the lesson, students will be able to trace function calls using computational thinking with 80% accuracy.
+- By the end of the lesson, students will be able to create function.
+- By the end of the lesson, students will be able to recognize the order of function is being execution.
 
 ## Prerequisite Knowledge
 
 *What do they need to know prior to trying this game?*
 
-- *Prerequisite Learning Objective #1*
-- *Prerequisite Learning Objective #2*
+- Prior to the game, players need to be able to define the concept of function structure.
+- Prior to the game, players need to be able to explain the variable in function.
 
 ## Assessment Measures
 
