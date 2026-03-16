@@ -2,7 +2,7 @@
 
 ## Elevator Pitch
 
-A fast-paced coding challenge game where players step through programs and trace function calls like a debugger, building computational thinking skills while mastering how real programs execute.
+A level-based game where players step through programs and trace function calls like a debugger, building computational thinking skills while mastering how real programs execute.
 
 ## Influences (Brief)
 
@@ -21,6 +21,7 @@ A fast-paced coding challenge game where players step through programs and trace
 - Identify parameter values passed into a function.
 - Identify return values produced by a function.
 - Place functions into a visual call stack to represent nested function layers.
+- Keep track of how deep a nested function goes.
 
 # Learning Aspects
 
@@ -32,7 +33,7 @@ A fast-paced coding challenge game where players step through programs and trace
 
 ## Target Audiences
 
-Students or the people who want to learn function in program.
+Students or the people who want to learn how to trace functions in program.
 
 ## Target Contexts
 
@@ -41,13 +42,14 @@ This learning activity or game can be used in introductory programming courses s
 ## Learning Objectives
 
 - By the end of the lesson, students will be able to trace function calls using computational thinking with 80% accuracy.
-- By the end of the lesson, students will be able to create function.
-- By the end of the lesson, students will be able to recognize the order of function is being execution.
+- By the end of the lesson, students will be able to create function calls with a debugger in mind.
+- By the end of the lesson, students will be able to recognize the order of functions that are being executed.
 
 ## Prerequisite Knowledge
 
 - Prior to the game, players need to be able to define the concept of function structure.
 - Prior to the game, players need to be able to explain the variable in function.
+- Prior to the game, players need to be able to demonstrate proper algorithmic thinking at the most basic level.
 
 ## Assessment Measures
 
@@ -95,7 +97,7 @@ This is a game for one person, they click/type with the mouse/keyboard or touch 
 
 # Procedures/Actions
 
-Players interact with the game by analyzing short programs and selecting the correct steps that occur during program execution. The player reads a displayed program and then uses on-screen buttons or draggable elements to indicate when a function is called, when a function returns, and what values are passed or returned.
+Players interact with the game by analyzing short programs and writing out the correct steps that occur during program execution. The player reads a displayed program and then uses on-screen buttons or draggable elements to indicate when a function is called, when a function returns, and what values are passed or returned.
 
 # Rules
 
@@ -151,32 +153,52 @@ Later levels introduce nested function calls, parameters, and return values. Vis
 
 ## Story (Brief)
 
-The player takes the role of a programmer exploring how programs run inside a computer. By stepping through code and tracing function calls, the player helps guide the program through its execution while solving small coding challenges.
+The player takes the role of a beginner Detective solving short mysteries and other problems. However, it seems as though all of the information he gathers about these mysteries have been translated into coding languages, including the reports he is given & even the speech of the people he talks to. Act as a computer program, scan through lines code, & take notes along the way to find the truth!
 
 ## Storyboarding
 
-[![](1.png)](https://github.com/ccchip1/Educational-Game-Developent-Project-Detective-Code/blob/main/1.png)
+Basic layout of your character's working space, There is a projector showing the transcript on the left, & a blackboard for taking notes on the right. Generally designed to have a viewing area on the left side, & your working space on the right side.
+
+[![](Detective_Code_StoryBoard1.png)](https://github.com/ccchip1/Educational-Game-Developent-Project-Detective-Code/blob/main/Detective_Code_StoryBoard1.png)
+
+
+When the player clicks the phone on the left side of the table, it will show a bubble over it giving you options for which function "phone" call you want to choose, it will also have you choose what the parameters are.
+
+[![](Detective_Code_StoryBoard2.png)](https://github.com/ccchip1/Educational-Game-Developent-Project-Detective-Code/blob/main/Detective_Code_StoryBoard2.png)
+
+
+Example of what the function phone call looks like.
+
+[![](Detective_Code_StoryBoard3.png)](https://github.com/ccchip1/Educational-Game-Developent-Project-Detective-Code/blob/main/Detective_Code_StoryBoard3.png)
+
+
+When the player clicks the papers on the right side of the table, It will bring up a big sheet of paper for the player write their answer in. since this game is focused around tracing function calls, most (but not all) of the levels will require listing the traces that they appear in.
+
+[![](Detective_Code_StoryBoard4.png)](https://github.com/ccchip1/Educational-Game-Developent-Project-Detective-Code/blob/main/Detective_Code_StoryBoard4.png)
+
+
+Example of what the written traces look like.
+
+[![](Detective_Code_StoryBoard5.png)](https://github.com/ccchip1/Educational-Game-Developent-Project-Detective-Code/blob/main/Detective_Code_StoryBoard5.png)
 
 # Assets Needed
 
 ## Aethestics
 
-*Give a sense of the aesthetics of your game, the spirit and atmosphere. Use descriptive, evocative words that can help the reader understand the emotional response of your game.*
+In the style of a cartoony detective noire film, but with a subtle static filter.
 
 ## Graphical
 
 - Characters List
-  - *Characters 1*
-  - *Characters 2*
-  - *...*
+  - Detective Code (main character)
+  - Various Co-workers
+  - Various Witness
 - Textures:
-  - *Texture 1*
-  - *Texture 2*
-  - *...*
+  - Static filter
+  - Old Timey Telephone
 - Environment Art/Textures:
-  - *Environment Texture 1*
-  - *Environment Texture 2*
-  - *...*
+  - Models for Detective Code's Office 
+  - Midnight crime scene
 
 
 ## Audio
@@ -185,14 +207,14 @@ The player takes the role of a programmer exploring how programs run inside a co
 *Game region/phase/time are ways of designating a particularly important place in the game.*
 
 - Music List (Ambient sound)
-  - *Game region/phase/time*: *Example 1*, *Example 2*
-  - *Game region/phase/time*: *Example 3*, *Example 4*
+  - Ace Attorney-like music for the title screen
+  - Chill jazz music for the main gameplay loop
   
 *Game Interactions are things that trigger SFX, like character movement, hitting a spiky enemy, collecting a coin.*
 
 - Sound List (SFX)
-  - *Game Interaction*: *Example 1*, *Example 2*
-  - *Game Interaction*: *Example 3*, *Example 4*
+  - Old phone sounds when using the phone: ringing sound, hangup sound
+  - Paper ruffling sounds when you click on the papers to go to write down a trace
 
 
 # Metadata
